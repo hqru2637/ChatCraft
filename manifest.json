@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "ChatCraft",
+    "description": "",
+    "uuid": "404e29f9-b036-4826-bc57-18f8b61c217c",
+    "version": [ 0, 1, 0 ],
+    "min_engine_version": [ 1, 21, 0 ]
+  },
+  "modules": [
+    {
+      "version": [ 0, 1, 0 ],
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/index.js",
+      "uuid": "b45f85d5-6703-4af1-b9ca-d117f8f8c609",
+      "description": ""
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.12.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-net",
+      "version": "1.0.0-beta"
+    }
+  ]
+}
